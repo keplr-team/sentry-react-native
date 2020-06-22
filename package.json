@@ -18,7 +18,7 @@
     "test:watch": "jest --watch",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
-    "postinstall": "build"
+    "postinstall": "npm run build"
   },
   "keywords": [
     "react-native",
